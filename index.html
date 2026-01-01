@@ -91,32 +91,28 @@ button:hover {
   <button onclick="nextNote()">Tıkla</button>
 </div>
 
-<audio id="music" loop>
+
   <source src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" type="audio/mp3">
-</audio>
+
 
 <script>
 const notes = [
-  "Canım, bugün sıradan bir gün değil… ama bunu zaten biliyorsun 😌🎂",
-  "Gülüm, bu tıklama = 1 sarılma. Borcun birikti 🤍😂",
-  "Çiçeğim, yanımda olmayışım moral bozmasın. Kalbim şu an senin yanında.",
-  "Dostum, hayatı çekilir kılan birkaç insan vardır… sen onlardan birisin.",
-  "Bugün doğan insanların gülüşü daha güzel olurmuş. Tesadüf mü? Sanmam 😏",
-  "Canım, bazen gülüyoruz bazen susuyoruz ama iyi ki hep biz kalıyoruz.",
-  "Gülüm, mesafeler sadece kilometreyle ölçülür. Bizim bağımız sağlam 💫",
-  "Çiçeğim, yüzünde bir tebessüm varsa görev tamam 🥹",
-  "Dostum, yeni yaşın huzur, sağlık ve bol kahkaha getirsin 🎂",
+  "Canımmmm, bugün sıradan bir gün değil… ama sen bunu zaten biliyorsun 😌🎂",
+  "bu tıklaman = 1 sarılma. sarılma borcun birikti haberin olsun 🤍😂",
+  "Yanında değilim ama kalbim hep senin yanında.",
+  "Canım dostum, hayatı çekilir kılan birkaç insan vardır ve sen benim için onlardan birisin.", 
+  " bazen gülüyoruz bazen susuyoruz ama iyi ki hep biz kalıyoruz. ",
+  "tam şuan yüzünde bir tebessüm varsa benim görev tamamdır çiçeğim 🥹",
+  "Yeni yaşın huzur, sağlık ve bol kahkaha getirsin HA BİR DE PARAAAA dkdklf🎂",
   "Şimdi dur… Bir tık daha atmadan önce: İyi ki doğdun 🤍",
-  "Mehlika, bazı insanlar bir isme değil bir hisse denk gelir. Sen hep öylesin. İyi ki varsın 🌙🤍"
+  "Bazı insanlar bir isme değil bir hisse denk gelir. Sen hep öylesin. İyi ki varsın Mehlika'm 🌙🤍"
 ];
 
 let index = 0;
-let musicStarted = false;
 
-function nextNote() {
-  if (!musicStarted) {
-    document.getElementById("music").play();
-    musicStarted = true;
+
+
+   
   }
 
   if (index < notes.length) {
@@ -155,3 +151,4 @@ function launchConfetti() {
 
 </body>
 </html>
+
